@@ -2,6 +2,32 @@
 
 Sass module for card CSS.
 
+## Install
+
+```bash
+npm i designkit-card
+```
+
+## Markup
+
+```html
+<div class="card">
+  <div class="card-content">
+    <div class="card-heading">
+      <h3 class="card-title">Card UI</h3>
+    </div>
+    <div class="card-body">
+      <div>
+        <!--Card Content-->
+      </div>
+    </div>
+    <div class="card-footer">
+      <div>Action bar</div>
+    </div>
+  </div>
+</div>
+```
+
 ## Author
 
 Jason Melgoza
