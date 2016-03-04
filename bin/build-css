@@ -1,0 +1,6 @@
+#!/bin/bash
+node-sass \
+  --output-style expanded \
+  --include-path node_modules/bourbon/app/assets/stylesheets \
+  --output css \
+  src/index.scss css/designkit-card.css
