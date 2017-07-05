@@ -1,7 +1,0 @@
-#!/bin/bash
-node-sass \
-  --output-style compressed \
-  --include-path node_modules/bourbon/app/assets/stylesheets \
-  --include-path node_modules/designkit-colors/src \
-  --output css \
-  src/index.scss css/designkit-card.min.css
