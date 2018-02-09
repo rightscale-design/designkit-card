@@ -1,34 +1,14 @@
 # designkit-card
+1.1.0
 
-Sass module for card CSS.
+Sass module for card CSS
 
 ## Install
-
-```bash
-npm i designkit-card
+```
+npm i --save designkit-card
 ```
 
-## Markup
-
-```html
-<div class="card">
-  <div class="card-content">
-    <div class="card-heading">
-      <h3 class="card-title">Card UI</h3>
-    </div>
-    <div class="card-body">
-      <div>
-        <!--Card Content-->
-      </div>
-    </div>
-    <div class="card-footer">
-      <div>Action bar</div>
-    </div>
-  </div>
-</div>
-```
-
-## The CSS
+### CSS
 
 ```css
 .card {
@@ -41,12 +21,12 @@ npm i designkit-card
 
 .card-heading {
   position: relative;
-  min-height: 3.625rem;
-  padding: 1.125rem 1.25rem 1.5rem;
+  min-height: 58px;
+  padding: 18px 20px 24px;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .card-heading:after {
@@ -65,21 +45,22 @@ npm i designkit-card
 .card-title {
   margin: 0;
   -webkit-user-select: all;
-  -moz-user-select: all;
-  -ms-user-select: all;
-  user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
 }
 
 .card-body {
-  padding: 1.125rem 1.25rem 1.5rem;
+  padding: 18px 20px 24px;
 }
 
 .card-footer {
-  padding: 0.625rem 0.8125rem 0.625rem;
+  padding: 10px 13px 10px;
   background-color: #F4F5F7;
   border-top: 1px solid #D1D6DC;
   border-radius: 0 0 2px 2px;
 }
+
 ```
 
 ## Author
