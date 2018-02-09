@@ -1,18 +1,64 @@
-# designkit-sample
-1.0.0
+# designkit-card
+1.1.0
 
-A Sass module for * used in RightScale apps.
+Sass module for card CSS
 
 ## Install
 ```
-npm i --save designkit-sample
+npm i --save designkit-card
 ```
 
 ### CSS
 
 ```css
-body {
-  background: #0769c6;
+.card {
+  background-color: #fff;
+  border: 1px solid #D1D6DC;
+  border-bottom-color: #bac1ca;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card-heading {
+  position: relative;
+  min-height: 58px;
+  padding: 18px 20px 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.card-heading:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  content: "";
+  background-color: #F4F5F7;
+  border-top: 1px solid #D1D6DC;
+  border-bottom: 1px solid #D1D6DC;
+  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  margin: 0;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+}
+
+.card-body {
+  padding: 18px 20px 24px;
+}
+
+.card-footer {
+  padding: 10px 13px 10px;
+  background-color: #F4F5F7;
+  border-top: 1px solid #D1D6DC;
+  border-radius: 0 0 2px 2px;
 }
 
 ```
