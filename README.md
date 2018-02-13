@@ -1,5 +1,5 @@
 # designkit-card
-1.1.0
+1.1.1
 
 Sass module for card CSS
 
