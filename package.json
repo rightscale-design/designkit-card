@@ -1,6 +1,6 @@
 {
   "name": "designkit-card",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Sass module for card CSS",
   "homepage": "https://github.com/rightscale-design/designkit-card#readme",
   "repository": {
@@ -38,7 +38,7 @@
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "csso": "^3.1.1",
-    "designkit-colors": "^1.0.0",
+    "designkit-colors": "^1.1.0",
     "lodash": "^4.17.5",
     "node-sass": "^4.5.3",
     "nodemon": "^1.10.0",
@@ -54,7 +54,7 @@
     "build:minify": "node ./scripts/minify.js",
     "build:docs": "node ./scripts/docs.js",
     "build:readme": "node ./scripts/readme.js",
-    "build:all": "npm run build:scss && npm run build:prefix && npm run build:minify && npm run build:docs",
+    "build:all": "npm run build:scss && npm run build:prefix && npm run build:minify && npm run build:docs && npm run build:readme",
     "build:serve": "run-p watch serve"
   }
 }

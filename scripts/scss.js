@@ -8,7 +8,7 @@ sass.render({
   file: './src/index.scss',
   outputStyle: 'expanded',
   includePaths: [
-    'node_modules/designkit-colors/src/scss'
+    'node_modules/designkit-colors/src'
   ]
 }, function(error, result) {
   if (error) {
